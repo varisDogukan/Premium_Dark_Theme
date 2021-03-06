@@ -1,0 +1,36 @@
+{
+  "name": "premium-dark-theme",
+  "displayName": "Premium dark theme",
+  "description": "This Theme for your Eyes :D",
+  "version": "0.0.1",
+  "author": {
+    "name": "doVa"
+  },
+  "engines": {
+    "vscode": "^1.54.0"
+  },
+  "galleryBanner": {
+    "color": "#afba57",
+    "theme": "dark"
+  },
+  "icon": "images/eye.png",
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "Premium dark theme",
+    "Dark Theme",
+    "One Dark Pro",
+    "Atom Theme",
+    "Theme"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Pd Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Pd Theme-color-theme.json"
+      }
+    ]
+  }
+}
