@@ -2,10 +2,16 @@
   "name": "premium-dark-theme",
   "displayName": "Premium dark theme",
   "description": "This Theme for your Eyes :D",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "author": {
     "name": "doVa"
   },
+  "homepage": "https://github.com/do-Va/Premium_Dark_Theme.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/do-Va/Premium_Dark_Theme.git"
+  },
+  "publisher": "doVa",
   "engines": {
     "vscode": "^1.54.0"
   },

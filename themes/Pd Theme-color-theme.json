@@ -8,7 +8,7 @@
     "diffEditor.insertedTextBackground": "#66f0c213",
     "dropdown.background": "#141820",
     "editor.background": "#212836",
-    "editor.foreground": "#adbad4",
+    "editor.foreground": "#ced6e6",
     "editor.lineHighlightBackground": "#99bbff0a",
     "editor.selectionBackground": "#e6eeff21",
     "editor.wordHighlightBackground": "#343F56",
@@ -75,28 +75,28 @@
       "name": "Comment",
       "scope": "comment",
       "settings": {
-        "foreground": "#506686"
+        "foreground": "#667fa3"
       }
     },
     {
       "name": "String",
       "scope": "string",
       "settings": {
-        "foreground": "#f6f6f5"
+        "foreground": "#dededa"
       }
     },
     {
       "name": "Strings, Inherited Class",
       "scope": "string.unquoted.html, string.quoted.double.js, string.quoted.single.html, constant.other.symbol, entity.other.inherited-class",
       "settings": {
-        "foreground": "#B3D667"
+        "foreground": "#bada74"
       }
     },
     {
       "name": "String single quoted JS",
       "scope": "string.quoted.single.js",
       "settings": {
-        "foreground": "#4a8868"
+        "foreground": "#69ad8a"
       }
     },
     {
@@ -128,14 +128,14 @@
       "name": "Built-in constant",
       "scope": "constant.language",
       "settings": {
-        "foreground": "#FFE792"
+        "foreground": "#edc1f9"
       }
     },
     {
       "name": "User-defined constant",
       "scope": "constant.character, constant.other",
       "settings": {
-        "foreground": "#AC58FF"
+        "foreground": "#9485e0"
       }
     },
     {
@@ -163,7 +163,14 @@
       "name": "Storage type",
       "scope": "storage.type",
       "settings": {
-        "foreground": "#ebe157"
+        "foreground": "#dee1a6"
+      }
+    },
+    {
+      "name": "Storage type arrow",
+      "scope": "storage.type.function.arrow",
+      "settings": {
+        "foreground": "#a69c14"
       }
     },
     {
@@ -185,7 +192,7 @@
       "name": "Function argument",
       "scope": "variable.parameter",
       "settings": {
-        "foreground": "#85AC3A"
+        "foreground": "#fac0f1"
       }
     },
     {
@@ -203,6 +210,13 @@
       }
     },
     {
+      "name": "Tag attribute",
+      "scope": "entity.other.attribute-name.pseudo-class, entity.other.attribute-name.pseudo-element ",
+      "settings": {
+        "foreground": "#f4d8ba"
+      }
+    },
+    {
       "name": "Tag Other",
       "scope": "meta.tag.other, entity.name.tag.style, entity.name.tag.script, meta.tag.block.script, source.js.embedded punctuation.definition.tag.html, source.css.embedded punctuation.definition.tag.html",
       "settings": {
@@ -217,10 +231,17 @@
       }
     },
     {
-      "name": "HTML id attribute",
-      "scope": "entity.other.attribute-name.id.html",
+      "name": "Variable Argument",
+      "scope": "variable.argument",
       "settings": {
-        "foreground": "#fffa9e"
+        "foreground": "#e36085"
+      }
+    },
+    {
+      "name": "HTML id attribute",
+      "scope": "entity.other.attribute-name.id",
+      "settings": {
+        "foreground": "#F2BCC2"
       }
     },
     {
@@ -234,7 +255,7 @@
       "name": "JS variable type",
       "scope": "support.class.builtin.js, entity.name.type.class.js",
       "settings": {
-        "foreground": "#fffa9e"
+        "foreground": "#6b6dfa"
       }
     },
     {
@@ -308,15 +329,15 @@
       }
     },
     {
-      "name": "CSS ID selector",
-      "scope": "entity.other.attribute-name.id.css",
+      "name": "Support type Module",
+      "scope": "support.type.object.module",
       "settings": {
-        "foreground": "#fffa9e"
+        "foreground": "#5da8e6"
       }
     },
     {
-      "name": "CSS Hex Color",
-      "scope": "constant.other.color.rgb-value.hex.css",
+      "name": "CSS ID selector",
+      "scope": "entity.other.attribute-name.id",
       "settings": {
         "foreground": "#F2BCC2"
       }
@@ -325,7 +346,14 @@
       "name": "CSS Property Value",
       "scope": "meta.property-group support.constant.property-value.css, meta.property-value support.constant.property-value.css",
       "settings": {
-        "foreground": "#719331"
+        "foreground": "#EE919A"
+      }
+    },
+    {
+      "name": "CSS Property Value",
+      "scope": "support.constant.vendored.property-value.css",
+      "settings": {
+        "foreground": "#f184f1"
       }
     },
     {
@@ -340,6 +368,13 @@
       "scope": "keyword.control.import",
       "settings": {
         "foreground": "#d67fec"
+      }
+    },
+    {
+      "name": "Keyword new",
+      "scope": "keyword.operator.new",
+      "settings": {
+        "foreground": "#f7b2f1"
       }
     },
     {
@@ -358,9 +393,9 @@
     },
     {
       "name": "Keyword rem",
-      "scope": "keyword.other.unit.rem",
+      "scope": "keyword.other.unit",
       "settings": {
-        "foreground": "#ba26df"
+        "foreground": "#e7acff"
       }
     },
     {
@@ -420,6 +455,34 @@
       }
     },
     {
+      "name": "Variables other env",
+      "scope": "variable.other.env",
+      "settings": {
+        "foreground": "#da69b8"
+      }
+    },
+    {
+      "name": "Source env",
+      "scope": "source.env",
+      "settings": {
+        "foreground": "#758bb7"
+      }
+    },
+    {
+      "name": "Source env",
+      "scope": "keyword.operator.assignment.",
+      "settings": {
+        "foreground": "#90dee6"
+      }
+    },
+    {
+      "name": "Source env",
+      "scope": "keyword.operator.logical",
+      "settings": {
+        "foreground": "#f2bcc2"
+      }
+    },
+    {
       "name": "Keyword Export",
       "scope": "keyword.control.export",
       "settings": {
@@ -451,14 +514,21 @@
       "name": "Classes Component",
       "scope": "support.class.component",
       "settings": {
-        "foreground": "#8869eb"
+        "foreground": "#ac96f1"
       }
     },
     {
       "name": "Object property",
       "scope": "variable.other.object.property",
       "settings": {
-        "foreground": "#b7a5f3"
+        "foreground": "#9f87ef"
+      }
+    },
+    {
+      "name": "Object property",
+      "scope": "variable.other.property",
+      "settings": {
+        "foreground": "#efaeb5"
       }
     },
     {
@@ -486,7 +556,14 @@
       "name": "Integers",
       "scope": "constant.numeric",
       "settings": {
-        "foreground": "#f1ceff"
+        "foreground": "#EAB780"
+      }
+    },
+    {
+      "name": "decimal",
+      "scope": "constant.numeric.decimal",
+      "settings": {
+        "foreground": "#e7acff"
       }
     },
     {
