@@ -96,7 +96,7 @@
       "name": "String single quoted JS",
       "scope": "string.quoted.single.js",
       "settings": {
-        "foreground": "#69ad8a"
+        "foreground": "#A6A37B"
       }
     },
     {
@@ -163,7 +163,7 @@
       "name": "Storage type",
       "scope": "storage.type",
       "settings": {
-        "foreground": "#dee1a6"
+        "foreground": "#a68192"
       }
     },
     {
@@ -211,6 +211,13 @@
     },
     {
       "name": "Tag attribute",
+      "scope": "entity.other.attribute-name.js",
+      "settings": {
+        "foreground": "#efc79de0"
+      }
+    },
+    {
+      "name": "Tag attribute",
       "scope": "entity.other.attribute-name.pseudo-class, entity.other.attribute-name.pseudo-element ",
       "settings": {
         "foreground": "#f4d8ba"
@@ -248,14 +255,14 @@
       "name": "JS function",
       "scope": "entity.name.function.js, entity.name.function.method.js, entity.name.accessor.js, entity.name.class.js",
       "settings": {
-        "foreground": "#56a3b1"
+        "foreground": "#c9b3bd"
       }
     },
     {
       "name": "JS variable type",
       "scope": "support.class.builtin.js, entity.name.type.class.js",
       "settings": {
-        "foreground": "#6b6dfa"
+        "foreground": "#adaefc"
       }
     },
     {
@@ -283,7 +290,7 @@
       "name": "HTML Tags",
       "scope": "punctuation.definition.tag.html, punctuation.definition.tag.begin, punctuation.definition.tag.end",
       "settings": {
-        "foreground": "#f2bcc2"
+        "foreground": "#C48FB1"
       }
     },
     {
@@ -332,7 +339,7 @@
       "name": "Support type Module",
       "scope": "support.type.object.module",
       "settings": {
-        "foreground": "#5da8e6"
+        "foreground": "#A6588A"
       }
     },
     {
@@ -360,14 +367,14 @@
       "name": "Library function",
       "scope": "support.function",
       "settings": {
-        "foreground": "#71b1fe"
+        "foreground": "#C48FB1"
       }
     },
     {
       "name": "Keyword import",
       "scope": "keyword.control.import",
       "settings": {
-        "foreground": "#d67fec"
+        "foreground": "#F0C7E5"
       }
     },
     {
@@ -451,7 +458,7 @@
       "name": "Variables other",
       "scope": "variable.other.readwrite.alias",
       "settings": {
-        "foreground": "#e7838e"
+        "foreground": "#b879a1"
       }
     },
     {
@@ -500,7 +507,7 @@
       "name": "Functions",
       "scope": "entity.name.function, meta.require, support.function.any-method",
       "settings": {
-        "foreground": "#7cafc2"
+        "foreground": "#79B6C1"
       }
     },
     {
@@ -514,7 +521,7 @@
       "name": "Classes Component",
       "scope": "support.class.component",
       "settings": {
-        "foreground": "#ac96f1"
+        "foreground": "#A6588A"
       }
     },
     {
