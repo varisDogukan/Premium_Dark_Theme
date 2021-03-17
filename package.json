@@ -2,7 +2,7 @@
   "name": "premium-dark-theme",
   "displayName": "Premium dark theme",
   "description": "This Theme for your Eyes :D",
-  "version": "0.0.5",
+  "version": "0.0.7",
   "author": {
     "name": "doVa"
   },
@@ -16,7 +16,7 @@
     "vscode": "^1.54.0"
   },
   "galleryBanner": {
-    "color": "#afba57",
+    "color": "#e5e9f0",
     "theme": "dark"
   },
   "icon": "images/eye.png",

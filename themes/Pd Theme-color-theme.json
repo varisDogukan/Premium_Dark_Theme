@@ -89,7 +89,7 @@
       "name": "Strings, Inherited Class",
       "scope": "string.unquoted.html, string.quoted.double.js, string.quoted.single.html, constant.other.symbol, entity.other.inherited-class",
       "settings": {
-        "foreground": "#bada74"
+        "foreground": "#A6A37B"
       }
     },
     {
@@ -184,8 +184,7 @@
       "name": "Inherited class",
       "scope": "entity.other.inherited-class",
       "settings": {
-        "fontStyle": "italic underline",
-        "foreground": "#82C600"
+        "foreground": "#e2c6a5"
       }
     },
     {
@@ -437,7 +436,7 @@
       "name": "Operators",
       "scope": "keyword.operator",
       "settings": {
-        "foreground": "#4FF2F8"
+        "foreground": "#d0d8e3"
       }
     },
     {
@@ -479,7 +478,7 @@
       "name": "Source env",
       "scope": "keyword.operator.assignment.",
       "settings": {
-        "foreground": "#90dee6"
+        "foreground": "#D0D8E3"
       }
     },
     {
