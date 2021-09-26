@@ -82,21 +82,21 @@
       "name": "String",
       "scope": "string",
       "settings": {
-        "foreground": "#dededa"
+        "foreground": "#bebeb6"
       }
     },
     {
       "name": "Strings, Inherited Class",
       "scope": "string.unquoted.html, string.quoted.double.js, string.quoted.single.html, constant.other.symbol, entity.other.inherited-class",
       "settings": {
-        "foreground": "#A6A37B"
+        "foreground": "#cfcdb8"
       }
     },
     {
       "name": "String single quoted JS",
       "scope": "string.quoted.single.js",
       "settings": {
-        "foreground": "#A6A37B"
+        "foreground": "#cfcdb8"
       }
     },
     {
@@ -198,14 +198,21 @@
       "name": "Tag name",
       "scope": "entity.name.tag",
       "settings": {
-        "foreground": "#ee919a"
+        "foreground": "#f5bdc3"
       }
     },
     {
       "name": "Tag attribute",
-      "scope": "entity.other.attribute-name, entity.other.attribute-name.class.css, string.quoted.double.json",
+      "scope": "entity.other.attribute-name.class.css, string.quoted.double.json, ",
       "settings": {
-        "foreground": "#eab780"
+        "foreground": "#CFCDB8"
+      }
+    },
+    {
+      "name": "Tag attribute",
+      "scope": "entity.other.attribute-name.html",
+      "settings": {
+        "foreground": "#CFCDB8"
       }
     },
     {
@@ -219,7 +226,7 @@
       "name": "Tag attribute",
       "scope": "entity.other.attribute-name.pseudo-class, entity.other.attribute-name.pseudo-element ",
       "settings": {
-        "foreground": "#f4d8ba"
+        "foreground": "#efc79de0"
       }
     },
     {
@@ -245,9 +252,9 @@
     },
     {
       "name": "HTML id attribute",
-      "scope": "entity.other.attribute-name.id",
+      "scope": "entity.other.attribute-name.id.css",
       "settings": {
-        "foreground": "#F2BCC2"
+        "foreground": "#e87d9b"
       }
     },
     {
@@ -457,7 +464,7 @@
       "name": "Variables other",
       "scope": "variable.other.readwrite.alias",
       "settings": {
-        "foreground": "#b879a1"
+        "foreground": "#b76e85"
       }
     },
     {
@@ -518,7 +525,7 @@
     },
     {
       "name": "Classes Component",
-      "scope": "support.class.component",
+      "scope": "support.class.component, entity.name.tag.js, meta.tag.without-attributes.js, meta.block.js, meta.function.js, source.js",
       "settings": {
         "foreground": "#A6588A"
       }
