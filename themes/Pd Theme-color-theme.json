@@ -275,7 +275,14 @@
       "name": "JS variable parameter",
       "scope": "variable.parameter.js, constant.other.object.key.js, variable.other.readwrite.js, punctuation.definition.parameters.begin.js, punctuation.definition.parameters.end.js, meta.object-literal.key.js, meta.array.literal.js, meta.brace.round.js, punctuation.definition.block.js, meta.objectliteral.js",
       "settings": {
-        "foreground": "#97a7c8"
+        "foreground": "#79B6C1"
+      }
+    },
+    {
+      "name": "JS variable parameter",
+      "scope": "variable.parameter.js, constant.other.object.key.js, variable.other.readwrite.js, punctuation.definition.parameters.begin.js, punctuation.definition.parameters.end.js, meta.array.literal.js, meta.brace.round.js, punctuation.definition.block.js, meta.objectliteral.js",
+      "settings": {
+        "foreground": "#c5c3c6"
       }
     },
     {
@@ -450,7 +457,7 @@
       "name": "Keywords",
       "scope": "keyword",
       "settings": {
-        "foreground": "#D59DF6"
+        "foreground": "#ffcad4"
       }
     },
     {
@@ -525,16 +532,30 @@
     },
     {
       "name": "Classes Component",
-      "scope": "support.class.component, entity.name.tag.js, meta.tag.without-attributes.js, meta.block.js, meta.function.js, source.js",
+      "scope": "support.class.component, meta.tag.without-attributes.js, meta.block.js, meta.function.js, source.js",
       "settings": {
         "foreground": "#A6588A"
+      }
+    },
+    {
+      "name": "Classes Component",
+      "scope": "entity.name.tag.js, meta.tag.without-attributes.js, meta.block.js, meta.function.js, source.js",
+      "settings": {
+        "foreground": "#d5bfe1"
+      }
+    },
+    {
+      "name": "Classes Component",
+      "scope": "meta.jsx.children.js",
+      "settings": {
+        "foreground": "#e7e7e7"
       }
     },
     {
       "name": "Object property",
       "scope": "variable.other.object.property",
       "settings": {
-        "foreground": "#9f87ef"
+        "foreground": "#748cab"
       }
     },
     {
