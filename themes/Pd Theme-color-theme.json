@@ -82,7 +82,7 @@
       "name": "String",
       "scope": "string",
       "settings": {
-        "foreground": "#bebeb6"
+        "foreground": "#acb6cc"
       }
     },
     {
@@ -237,6 +237,13 @@
       }
     },
     {
+      "name": "Tag Other",
+      "scope": "punctuation.definition.template-expression.begin.js",
+      "settings": {
+        "foreground": "#e9a9e4e8"
+      }
+    },
+    {
       "name": "this",
       "scope": "variable.language.this.js, variable.language.this.ts, entity.name.type",
       "settings": {
@@ -280,9 +287,16 @@
     },
     {
       "name": "JS variable parameter",
+      "scope": "variable.parameter.js.jsx",
+      "settings": {
+        "foreground": "#ffc078"
+      }
+    },
+    {
+      "name": "JS variable parameter",
       "scope": "variable.parameter.js, constant.other.object.key.js, variable.other.readwrite.js, punctuation.definition.parameters.begin.js, punctuation.definition.parameters.end.js, meta.array.literal.js, meta.brace.round.js, punctuation.definition.block.js, meta.objectliteral.js",
       "settings": {
-        "foreground": "#c5c3c6"
+        "foreground": "#ac6dccc0"
       }
     },
     {
