@@ -82,25 +82,11 @@
       "name": "String",
       "scope": "string",
       "settings": {
-        "foreground": "#acb6cc"
+        "foreground": "#d9dfeb"
       }
     },
     {
-      "name": "Strings, Inherited Class",
-      "scope": "string.unquoted.html, string.quoted.double.js, string.quoted.single.html, constant.other.symbol, entity.other.inherited-class",
-      "settings": {
-        "foreground": "#cfcdb8"
-      }
-    },
-    {
-      "name": "String single quoted JS",
-      "scope": "string.quoted.single.js",
-      "settings": {
-        "foreground": "#cfcdb8"
-      }
-    },
-    {
-      "scope": "support.variable.dom.js",
+      "scope": "support.variable.dom.js, support.variable.dom.ts",
       "settings": {
         "foreground": "#59f2f7"
       }
@@ -112,7 +98,7 @@
       }
     },
     {
-      "scope": "variable.other.constant.js, variable.other.constant.object.js, variable.other.constant.property.js",
+      "scope": "variable.other.constant.js, variable.other.constant.object.js, variable.other.constant.property.js, variable.other.constant.ts, variable.other.constant.object.ts, variable.other.constant.property.ts",
       "settings": {
         "foreground": "#969eba"
       }
@@ -217,7 +203,7 @@
     },
     {
       "name": "Tag attribute",
-      "scope": "entity.other.attribute-name.js",
+      "scope": "entity.other.attribute-name.js, entity.other.attribute-name.ts",
       "settings": {
         "foreground": "#efc79de0"
       }
@@ -231,14 +217,14 @@
     },
     {
       "name": "Tag Other",
-      "scope": "meta.tag.other, entity.name.tag.style, entity.name.tag.script, meta.tag.block.script, source.js.embedded punctuation.definition.tag.html, source.css.embedded punctuation.definition.tag.html",
+      "scope": "meta.tag.other, entity.name.tag.style, entity.name.tag.script, meta.tag.block.script, source.js.embedded punctuation.definition.tag.html, source.ts.embedded punctuation.definition.tag.html, source.css.embedded punctuation.definition.tag.html",
       "settings": {
         "foreground": "#E26674"
       }
     },
     {
       "name": "Tag Other",
-      "scope": "punctuation.definition.template-expression.begin.js",
+      "scope": "punctuation.definition.template-expression.begin.js, punctuation.definition.template-expression.begin.ts",
       "settings": {
         "foreground": "#e9a9e4e8"
       }
@@ -266,49 +252,49 @@
     },
     {
       "name": "JS function",
-      "scope": "entity.name.function.js, entity.name.function.method.js, entity.name.accessor.js, entity.name.class.js",
+      "scope": "entity.name.function.js, entity.name.function.method.js, entity.name.accessor.js, entity.name.class.js, entity.name.function.tsx, entity.name.function.method.tsx, entity.name.accessor.tsx, entity.name.class.tsx",
       "settings": {
         "foreground": "#c9b3bd"
       }
     },
     {
       "name": "JS variable type",
-      "scope": "support.class.builtin.js, entity.name.type.class.js",
+      "scope": "support.class.builtin.js, entity.name.type.class.js, support.class.builtin.ts, entity.name.type.class.ts",
       "settings": {
         "foreground": "#adaefc"
       }
     },
     {
       "name": "JS variable parameter",
-      "scope": "variable.parameter.js, constant.other.object.key.js, variable.other.readwrite.js, punctuation.definition.parameters.begin.js, punctuation.definition.parameters.end.js, meta.object-literal.key.js, meta.array.literal.js, meta.brace.round.js, punctuation.definition.block.js, meta.objectliteral.js",
+      "scope": "variable.parameter.js, constant.other.object.key.js, variable.other.readwrite.js, punctuation.definition.parameters.begin.js, punctuation.definition.parameters.end.js, meta.object-literal.key.js, meta.array.literal.js, meta.brace.round.js, punctuation.definition.block.js, meta.objectliteral.js, variable.parameter.ts, constant.other.object.key.ts, variable.other.readwrite.ts, punctuation.definition.parameters.begin.ts, punctuation.definition.parameters.end.ts, meta.object-literal.key.ts, meta.array.literal.ts, meta.brace.round.ts, punctuation.definition.block.ts, meta.objectliteral.ts",
       "settings": {
         "foreground": "#79B6C1"
       }
     },
     {
       "name": "JS variable parameter",
-      "scope": "variable.parameter.js.jsx",
+      "scope": "variable.parameter.js, variable.parameter.ts",
       "settings": {
         "foreground": "#ffc078"
       }
     },
     {
       "name": "JS variable parameter",
-      "scope": "variable.parameter.js, constant.other.object.key.js, variable.other.readwrite.js, punctuation.definition.parameters.begin.js, punctuation.definition.parameters.end.js, meta.array.literal.js, meta.brace.round.js, punctuation.definition.block.js, meta.objectliteral.js",
+      "scope": "variable.parameter.js, constant.other.object.key.js, variable.other.readwrite.js, punctuation.definition.parameters.begin.js, punctuation.definition.parameters.end.js, meta.array.literal.js, meta.brace.round.js, punctuation.definition.block.js, meta.objectliteral.js, variable.parameter.ts, constant.other.object.key.ts, variable.other.readwrite.alias.ts, variable.other.readwrite.alias.tsx, punctuation.definition.parameters.begin.ts, punctuation.definition.parameters.end.ts, meta.array.literal.ts, meta.brace.round.ts, meta.objectliteral.ts",
       "settings": {
         "foreground": "#ac6dccc0"
       }
     },
     {
       "name": "JS variable parameter",
-      "scope": "constant.language.boolean.false.js, constant.language.boolean.true.js",
+      "scope": "constant.language.boolean.false.js, constant.language.boolean.true.js, constant.language.boolean.false.ts, constant.language.boolean.true.ts",
       "settings": {
         "foreground": "#eab780"
       }
     },
     {
       "name": "JS variable parameter",
-      "scope": "support.variable.property.dom.js, entity.name.type.new.js",
+      "scope": "support.variable.property.dom.js, entity.name.type.new.js, support.variable.property.dom.ts, entity.name.type.new.ts",
       "settings": {
         "foreground": "#e76572"
       }
@@ -398,13 +384,6 @@
       }
     },
     {
-      "name": "Keyword import",
-      "scope": "keyword.control.import",
-      "settings": {
-        "foreground": "#F0C7E5"
-      }
-    },
-    {
       "name": "Keyword new",
       "scope": "keyword.operator.new",
       "settings": {
@@ -468,24 +447,10 @@
       }
     },
     {
-      "name": "Keywords",
-      "scope": "keyword",
-      "settings": {
-        "foreground": "#ffcad4"
-      }
-    },
-    {
       "name": "Variables",
       "scope": "variable, meta.selector.css",
       "settings": {
         "foreground": "#e7838e"
-      }
-    },
-    {
-      "name": "Variables other",
-      "scope": "variable.other.readwrite.alias",
-      "settings": {
-        "foreground": "#b76e85"
       }
     },
     {
@@ -546,21 +511,21 @@
     },
     {
       "name": "Classes Component",
-      "scope": "support.class.component, meta.tag.without-attributes.js, meta.block.js, meta.function.js, source.js",
+      "scope": "support.class.component, meta.tag.without-attributes.js, meta.block.js, meta.function.js, source.js, meta.tag.without-attributes.ts, meta.block.ts, meta.function.ts, source.ts",
       "settings": {
         "foreground": "#A6588A"
       }
     },
     {
       "name": "Classes Component",
-      "scope": "entity.name.tag.js, meta.tag.without-attributes.js, meta.block.js, meta.function.js, source.js",
+      "scope": "entity.name.tag.js, meta.tag.without-attributes.js, meta.block.js, meta.function.js, source.js, entity.name.tag.ts, meta.tag.without-attributes.ts, meta.block.ts, meta.function.expression.tsx, source.ts, punctuation.definition.tag.begin.tsx, punctuation.definition.tag.end.tsx, punctuation.definition.block.ts, variable.object.property.ts, variable.object.property.tsx",
       "settings": {
         "foreground": "#d5bfe1"
       }
     },
     {
       "name": "Classes Component",
-      "scope": "meta.jsx.children.js",
+      "scope": "meta.jsx.children.js, meta.tsx.children.ts",
       "settings": {
         "foreground": "#e7e7e7"
       }
@@ -698,6 +663,13 @@
       "scope": "token.debug-token",
       "settings": {
         "foreground": "#b267e6"
+      }
+    },
+    {
+      "name": "Keywords",
+      "scope": "keyword, keyword.control.export.tsx, keyword.control.default.tsx, keyword.control.from.ts, keyword.control.from.tsx, keyword.control.export.ts, keyword.control.default.ts, keyword.control.from.ts",
+      "settings": {
+        "foreground": "#ffcad4"
       }
     }
   ]
